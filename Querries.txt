@@ -1,0 +1,69 @@
+users:-
+
+{  _id: ObjectId('668790937da1d0e08c6c79e2'),  user_id: 1,  name: 'robert',  age: 22,  course: 'FSD'}
+
+{  _id: ObjectId('668790937da1d0e08c6c79e3'),  user_id: 2,  name: 'steve',  age: 22,  course: 'FSD'}
+
+{  _id: ObjectId('668790937da1d0e08c6c79e4'),  user_id: 3,  name: 'bruce',  age: 22,  course: 'FSD'}
+
+{  _id: ObjectId('668790937da1d0e08c6c79e4'),  user_id: 3,  name: 'bruce',  age: 22,  course: 'FSD'}
+
+codekata:-
+
+{  _id: ObjectId('6687910f7da1d0e08c6c79e6'),  user_id: 1,  std_id: ObjectId('668790937da1d0e08c6c79e2'),  total_qn: 100,  completed: 30}
+
+{  _id: ObjectId('6687910f7da1d0e08c6c79e7'),  user_id: 2,  std_id: ObjectId('668790937da1d0e08c6c79e3'),  total_qn: 100,  completed: 60}
+
+{  _id: ObjectId('6687910f7da1d0e08c6c79e8'),  user_id: 3,  std_id: ObjectId('668790937da1d0e08c6c79e4'),  total_qn: 100,  completed: 90}
+
+{  _id: ObjectId('6687910f7da1d0e08c6c79e9'),  user_id: 4,  std_id: ObjectId('668790937da1d0e08c6c79e5'),  total_qn: 100,  completed: 41}
+
+attendance:-
+
+{  _id: ObjectId('668794a07da1d0e08c6c79fa'),  userid: 1,  topic_id: 2,  attended: true,  percentage: 90}
+
+{  _id: ObjectId('668794a07da1d0e08c6c79fb'),  userid: 2,  topic_id: 5,  attended: true,  percentage: 93}
+
+{  _id: ObjectId('668794a07da1d0e08c6c79fc'),  userid: 3,  topic_id: 3,  attended: false,  percentage: 80}
+
+{  _id: ObjectId('668794a07da1d0e08c6c79fd'),  userid: 4,  topic_id: 1,  attended: true,  percentage: 95}
+
+topics:-
+
+{  _id: ObjectId('668793637da1d0e08c6c79ea'),  topic_id: 1,  topic: 'react-D1',  month: 'March'}
+
+{  _id: ObjectId('668793637da1d0e08c6c79eb'),  topic_id: 2,  topic: 'react-D2',  month: 'october'}
+
+{  _id: ObjectId('668793637da1d0e08c6c79ec'),  topic_id: 3,  topic: 'node-D1',  month: 'october'}
+
+{  _id: ObjectId('668793637da1d0e08c6c79ed'),  topic_id: 4,  topic: 'node-D2',  month: 'November'}
+
+tasks:-
+
+{  _id: ObjectId('668793ae7da1d0e08c6c79ee'),  task_id: 1,  user_id: 1,  task: 'JS Task',  due_date: 2020-10-15T18:30:00.000Z,  submitted: true,  attendance: 'present'}
+
+{  _id: ObjectId('668793ae7da1d0e08c6c79ef'),  task_id: 2,  user_id: 2,  task: 'CSS Task',  due_date: 2020-10-19T18:30:00.000Z,  submitted: true,  attendance: 'present'}
+
+{  _id: ObjectId('668793ae7da1d0e08c6c79f0'),  task_id: 3,  user_id: 3,  task: 'HTML Task',  due_date: 2020-10-28T18:30:00.000Z,  submitted: false,  attendance: 'absent'}
+
+{  _id: ObjectId('668793ae7da1d0e08c6c79f1'),  task_id: 4,  user_id: 4,  task: 'React Task',  due_date: 2020-10-31T18:30:00.000Z,  submitted: true,  attendance: 'present'}
+
+company_drives:-
+
+{  _id: ObjectId('668793c77da1d0e08c6c79f2'),  company_name: 'Google',  date: 2020-10-20T00:00:00.000Z,  no_of_attended: 3,  students_appeared: [    1,    2,    3  ]}
+
+{  _id: ObjectId('668793c77da1d0e08c6c79f3'),  company_name: 'Microsoft',  date: 2020-11-15T00:00:00.000Z,  no_of_attended: 4,  students_appeared: [    2,    3,    4,    5  ]}
+
+{  _id: ObjectId('668793c77da1d0e08c6c79f4'),  company_name: 'Amazon',  date: 2020-12-05T00:00:00.000Z,  no_of_attended: 2,  students_appeared: [    1,    4  ]}
+
+{  _id: ObjectId('668793c77da1d0e08c6c79f5'),  company_name: 'Facebook',  date: 2021-01-10T00:00:00.000Z,  no_of_attended: 5,  students_appeared: [    1,    2,    3,    4,    5  ]}
+
+mentors:-
+
+{  _id: ObjectId('6687942d7da1d0e08c6c79f6'),  mentor_name: 'ironman',  mentees_count: 35}
+
+{  _id: ObjectId('6687942d7da1d0e08c6c79f7'),  mentor_name: 'captainamerica',  mentees_count: 16}
+
+{  _id: ObjectId('6687942d7da1d0e08c6c79f8'),  mentor_name: 'hulk',  mentees_count: 11}
+
+{  _id: ObjectId('6687942d7da1d0e08c6c79f9'),  mentor_name: 'thor',  mentees_count: 9}
